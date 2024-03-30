@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "oldleafdecay",
+  "version": "${version}",
+  "name": "OldLeadDecay",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Andriyko/OldLeadDecay"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/oldleafdecay/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "oldleafdecay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
